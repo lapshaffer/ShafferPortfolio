@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: var(--deep-blue);
+    background: var(--dark);
     color: var(--light-blue);
 }
 
@@ -29,6 +29,6 @@ main p {
 }
 
 footer {
-    background: var(--yellow);
-    color: var(--dark);
+    background: var(--light-blue);
+    color: var(--deep-blue);
 }
