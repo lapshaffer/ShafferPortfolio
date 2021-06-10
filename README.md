@@ -38,6 +38,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 This homework is graded based on the following criteria:
 
+```
 Technical Acceptance Criteria: 40%
 Satisfies all of the above acceptance criteria.
 
