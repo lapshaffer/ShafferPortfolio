@@ -5,3 +5,30 @@
     --light-blue: #009ffd;
     --yellow: #ffa400;
 }
+
+body {
+    background: var(--light);
+}
+
+header {
+    background: var(--deep-blue);
+    color: var(--light-blue);
+}
+
+nav {
+    color: var(--yellow);
+    font-weight: bolder;
+}
+
+h2 {
+    color: var(--deep-blue);
+}
+
+main p {
+    color: var(--dark);
+}
+
+footer {
+    background: var(--yellow);
+    color: var(--dark);
+}
