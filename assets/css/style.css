@@ -1,3 +1,4 @@
+/* Color palette provided by https://coolors.co/ */
 :root {
     --light: #eaf6ff;
     --dark: #232528;
@@ -15,9 +16,19 @@ header {
     color: var(--light-blue);
 }
 
-nav {
+header h1 {
+    display: inline-block;
+}
+
+header nav {
     color: var(--yellow);
     font-weight: bolder;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 25px;
 }
 
 h2 {
