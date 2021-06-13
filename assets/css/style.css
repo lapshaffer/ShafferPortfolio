@@ -7,6 +7,11 @@
     --yellow: #ffa400;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background: var(--light);
 }
@@ -14,16 +19,22 @@ body {
 header {
     background: var(--dark);
     color: var(--light-blue);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 header h1 {
     display: inline-block;
+    font-size: 50px;
+    margin-left: 10px;
 }
 
 header nav {
     color: var(--yellow);
     font-weight: bolder;
-    float: right;
+    font-size: 25px;
+    position: relative;
 }
 
 header nav ul li {
@@ -31,15 +42,57 @@ header nav ul li {
     margin: 25px;
 }
 
+header a:link {
+    color: var(--yellow)
+}
+
+header a:visited {
+    color: var(--yellow);
+}
+
 h2 {
     color: var(--deep-blue);
+    border-right: 3px solid var(--yellow);
+    padding-right: 3px;
+    padding-left: 15px;
+    text-align: right;
+}
+
+main section {
+    display: flex;
+    padding: 15px 0px;
 }
 
 main p {
+    color: var(--dark);
+    margin-left: 8px;
+}
+
+main ul li {
+    display: inline-block;
+    margin: 0 30px;
+    border-bottom: 2px solid var(--deep-blue);
+}
+
+main a:link {
+    color: var(--dark);
+}
+
+main a:visited {
     color: var(--dark);
 }
 
 footer {
     background: var(--light-blue);
     color: var(--deep-blue);
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin: 5px
+}
+
+.hyperlink {
+    text-decoration: none;
 }
