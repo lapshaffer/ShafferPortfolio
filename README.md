@@ -63,3 +63,8 @@ You are required to submit BOTH of the following for review:
 The URL of the deployed application.
 The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 ```
+## Completed Portfolio Site
+
+This page is stored at https://lapshaffer.github.io/ShafferPortfolio/
+
+![ShafferPortfolioScreenshot](FinishedWebpageShaffer06142021.png) 
