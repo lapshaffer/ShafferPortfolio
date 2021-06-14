@@ -82,6 +82,7 @@ main p {
     margin: 0 5px;
     max-width: 166px;
     max-height: 215px;
+    float: left;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -118,6 +119,9 @@ main a:visited {
     padding: 0px;
     border: 0px;
     text-decoration: none;
+    line-height: 0px;
+    font-size: 0px;
+    display: contents;
 }
 
 .item {
@@ -154,4 +158,11 @@ footer {
 
 h3 {
     margin: 5px
+}
+
+/* 06/14/2021- Because I'm currently having trouble getting my text to wrap on smaller screens, I'm opting to not display the About Me image on mobile screens at the moment to maintain the integrity of the page design */
+@media screen and (max-width: 768px) {
+    #img-about-me {
+        display: none;
+    }
 }
