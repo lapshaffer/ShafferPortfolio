@@ -108,7 +108,7 @@ main a:visited {
 .container {
     display: flex;
     margin: 0px 5px;
-    height: 500px;
+    height: auto;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -125,7 +125,7 @@ main a:visited {
 }
 
 .item {
-    height: 14%;
+    height: auto;
 }
 
 #item-1 {
@@ -160,9 +160,29 @@ h3 {
     margin: 5px
 }
 
-/* 06/14/2021- Because I'm currently having trouble getting my text to wrap on smaller screens, I'm opting to not display the About Me image on mobile screens at the moment to maintain the integrity of the page design */
 @media screen and (max-width: 768px) {
-    #img-about-me {
-        display: none;
+    .mobile-display {
+        display: block;
+    }
+
+    header {
+        display: block;
+    }
+
+    #about-me {
+        text-align: left;
+        width: 28vw;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        border-right: none;
+        border-bottom: 3px solid var(--yellow);
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+    header nav ul li {
+        display: block;
+        margin: 10px;
     }
 }
