@@ -124,6 +124,18 @@ main a:visited {
     display: contents;
 }
 
+/* This is meant to override the a styling within the projects container to show links to the project repos, but at the moment it isn't functional */
+.repo {
+    color: var(--dark);
+    padding: auto;
+    margin: auto;
+    border: auto;
+    font-size: 10px;
+    line-height: 5px;
+    text-decoration: underline;
+    display: block;
+}
+
 .item {
     height: auto;
 }
